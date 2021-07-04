@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 body {
     background-color: #2a2e2a;
     background-image: url(images/cfhp_new_logo.png);
@@ -12,19 +16,24 @@ body {
 }
 
 header {
-    background-color: blue;
+    background-color: rgba(30, 30, 121, 0.322);
+    background-image: url(images/logo_uhs.png);
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 110px;
     text-align: center;
 }
 
-img {
-    height: 40px;
-    width: auto;
+img.logo {
+    height: 120px;
+    width: 120px;
 }
 
+
 nav {
-    background-color: red;
+    background-color: rgba(37, 35, 35, 0.644);
     height: 40px;
+    text-align: center;
 }
 
 main {
@@ -36,7 +45,7 @@ main {
 }
 
 footer {
-    background-color: greenyellow;
+    background-color: rgba(37, 35, 35, 0.644);
     height: 100px;
 }
 
